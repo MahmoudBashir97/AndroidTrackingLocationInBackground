@@ -14,8 +14,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".MyApp"
         android:theme="@style/Theme.TrackingUserLocationBackground"
         tools:targetApi="31">
+        <service android:name=".sevice.LocationService"
+            android:foregroundServiceType="location"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
