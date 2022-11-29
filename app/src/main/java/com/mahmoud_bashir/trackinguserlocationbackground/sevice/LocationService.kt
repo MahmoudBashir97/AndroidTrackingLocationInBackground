@@ -19,6 +19,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 
 class LocationService : Service() {
+
     private val serviceScope = CoroutineScope(
         SupervisorJob()+Dispatchers.IO
     )

@@ -54,9 +54,6 @@ class DefaultLocationClient(
             awaitClose {
                 fusedLocationProviderClient.removeLocationUpdates(locationCallback)
             }
-
-
-
         }
     }
 
